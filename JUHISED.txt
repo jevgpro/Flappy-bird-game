@@ -1,0 +1,16 @@
+sw.js
+- fail kus pane kirja kõik oma projekti failid (arraysse urlsToCache). Lebo on teha neid fullpathiga kui on alamkaust (nagu caupo.ee/raamat puhul). Relative pathiga mul tekkis probleeme, kus miskit ei saanud kätte vahel jne.
+
+manifest.json
+- vaheta short_name, name ja start_url vastavaks kus failid laetud
+- pildifailid peavad olema mis iconsite all kirjas ja reso peab piltidel olema õige muidu ei tööta
+
+index.html
+- failis olev javascripti osa script tagide vahel tõsta enda index.htmli. Javascripti failis see ei toiminud. 
+- Lisa kindlasti kuhugi htmli: <button class="btnAdd">Add to Homescreen</button>
+- Ja head tag-ide vahele 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="manifest" href="manifest.json">
+
+Kui see tehtud, siis vaja https-i, et Add To Homescreen tööle hakkaks. Antud feature töötab ainult Chromega. Firefoxi või mõne muu asjaga see ei tööta.

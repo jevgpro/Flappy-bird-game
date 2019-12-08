@@ -1,0 +1,87 @@
+{
+  "short_name": "Flappy Birds",
+  "name": "Flappy Birds Project",
+  "icons": [
+    {
+      "src": "img/background.png",
+      "type": "image/png",
+      "sizes": "1920x1280"
+    },
+	{
+      "src": "img/bg.png",
+      "type": "image/png",
+      "sizes": "288x512"
+    },
+	{
+      "src": "img/bird.png",
+      "type": "image/png",
+      "sizes": "38x26"
+    },
+	{
+      "src": "img/bird_empty.png",
+      "type": "image/png",
+      "sizes": "38x26"
+    },
+	{
+      "src": "img/fg.png",
+      "type": "image/png",
+      "sizes": "306x118"
+    },
+	{
+      "src": "img/pipeBottom.png",
+      "type": "image/png",
+      "sizes": "52x378"
+    },
+	{
+      "src": "img/pipeUp.png",
+      "type": "image/png",
+      "sizes": "52x242"
+    },
+	{
+      "src": "img/rules.png",
+      "type": "image/png",
+      "sizes": "176x286"
+    },
+	{
+      "src": "img/rune_haste.png",
+      "type": "image/png",
+      "sizes": "26x35"
+    },
+	{
+      "src": "img/rune_invisible.png",
+      "type": "image/png",
+      "sizes": "26x35"
+    },
+	{
+      "src": "img/rune_score.png",
+      "type": "image/png",
+      "sizes": "26x35"
+    },
+	{
+      "src": "img/rune_score1.jpg",
+      "type": "image/jpg",
+      "sizes": "34x43"
+    },
+	{
+      "src": "img/runs.png",
+      "type": "image/png",
+      "sizes": "26x35"
+    },
+	{
+      "src": "img/runs_empty.png",
+      "type": "image/png",
+      "sizes": "26x35"
+    },
+    {
+      "src": "Score.jpg",
+      "type": "image/png",
+      "sizes": "496x540"
+    }
+  ],
+  "start_url": "/projekt/index.html",
+  "background_color": "#FFF",
+  "display": "standalone",
+  "scope": "",
+  "theme_color": "#FFF",
+  "prefer_related_applications": true
+}
